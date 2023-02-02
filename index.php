@@ -68,11 +68,9 @@
 <div class="row">
     <div class="col-md-4">
         <img class="school" src="school1.jpg">
-        <p>
-            in a vibrant, academically challenging, and 
-            encouraging environment where manifold viewpoints
-            are prized and celebrated.
-        </p>
+        <h4>
+            information systems students doing presentations
+</h4>
 </div>
 <div class="col-md-4">
 <img class="school" src="school2.jpg">
@@ -101,16 +99,16 @@
 <div class="container">
 <div class="row">
     <div class="col-md-4">
-        <img class="school" src="c1.jpg">
+      <img class="school" src="x1.jpg">
         <h3>INFORMATION SYSTEMS</h3></div>
 
 <div class="col-md-4">
-<img class="school" src="c2.jpg">
+<img class="school" src="x2.jpg">
 <h3>COMPUTER SCIENCE</h3>
 </div>
 
 <div class="col-md-4">
-<img class="school" src="c3.jpg">
+<img class="school" src="x3.png">
 <h3>COMPUTER NETWORKING</h3>
 </div>
 </div>
@@ -120,29 +118,29 @@
     <h1 class="adm">Admission Form</h1>
 </center>
 <div align="center" class="admission_form">
-    <form>
+    <form action="data_check.php" method="POST">
         <div class="adm_int">
             <label class="label_text">Name</label>
-            <input class="input_deg" type="text" name="">
+            <input class="input_deg" type="text" name="name">
          </div>
 
          <div>
             <label class="label_text">Email</label>
-            <input class="input_deg" type="text" name="">
+            <input class="input_deg" type="text" name="email">
          </div>
 
          <div>
             <label class="label_text">Phone </label>
-            <input class="input_deg" type="text" name="">
+            <input class="input_deg" type="text" name="phone">
          </div>
 
          <div>
             <label>Message</label>
-            <textarea class="input_txt"></textarea>
+            <textarea class="input_txt" name="message"></textarea>
          </div>
 
-         <div>
-            <input class ="btn btn-primary" id="submit" value="apply">
+         <div class="adm_int">
+            <input class ="btn btn-primary" id="submit" type="submit" value="apply">
          </div>
 </form>
 
