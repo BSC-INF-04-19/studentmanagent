@@ -17,19 +17,19 @@
 </head>
 <body>
     <nav>
-        <label class="logo">INFORMARTICS</label>
+        <label class="logo">UNIVERSITY OF MALAWI</label>
 
         <ul>
             <li><a href="">Home</a></li>
             <li><a href="">Contact</a></li>
             <li><a href="">Admission</a></li>
-            <li><a href="" class="btn btn-success">Login</a></li>
+            <li><a href="login.php" class="btn btn-success">Login</a></li>
 
 </nav>
 
 <div class="section1">
 
-<label class="img_text">We Teach Students With Care</label>
+<label class="img_text">SCHOOL OF COMPUTING</label>
     <img class= "main_img" src="studentmanagemt.jpg">
 </div>
 
@@ -42,7 +42,7 @@
 </div>
 
 <div class="col-md-8">
-<h1>Welcome to Informatics</h1>
+<h1>WELCOME TO SCHOOL OF COMPUTING</h1>
 
 <p class="paragraph"> Unima has been commited to global learning long before it became n indispensble
     feature of contemporary. Established in 1964, we proudly stand as the 1st Nyasaland 
@@ -62,7 +62,7 @@
 </div>
 </div>
 <center>
-    <h1>Our Teacher</h1>
+    <h1>LECTURERING</h1>
 </center>
 <div class="container">
 <div class="row">
@@ -96,22 +96,22 @@
 
 
 <center>
-    <h1>Our Courses</h1>
+    <h1>PROGRAMMES</h1>
 </center>
 <div class="container">
 <div class="row">
     <div class="col-md-4">
         <img class="school" src="c1.jpg">
-        <h3>Web Design</h3></div>
+        <h3>INFORMATION SYSTEMS</h3></div>
 
 <div class="col-md-4">
 <img class="school" src="c2.jpg">
-<h3>Graphics designing</h3>
+<h3>COMPUTER SCIENCE</h3>
 </div>
 
 <div class="col-md-4">
 <img class="school" src="c3.jpg">
-<h3>Marketing</h3>
+<h3>COMPUTER NETWORKING</h3>
 </div>
 </div>
 </div>

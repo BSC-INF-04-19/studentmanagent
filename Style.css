@@ -58,7 +58,7 @@ ul li a
     top: 20%;
     left: 30%;
     color: white;
-    background-color: rgb(60, 17, 218);
+    background-color: rgb(39, 7, 182);
     padding-right: 20px;
     padding-left: 20px;
     font-size: 35px;
@@ -105,7 +105,7 @@ border: 1 px solid blue;
 width: 30%;
 height: 320px;
 border-radius: 25px;
-border: 1px solid blue;
+border: 1px solid rgb(118, 140, 238);
 }
 
 #submit
@@ -134,3 +134,45 @@ footer{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.form_deg
+{
+    padding-top: 200px;
+}
+
+.label_deg
+{
+    display: inline-block;
+    color: skyblue;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+
+ .login_form
+ {
+     background-color: rgb(14, 10, 10);
+     width: 400px;
+     padding-top: 70px;
+     padding-bottom: 70px;
+ }
+
+ .title_deg
+ {
+     background-color:skyblue ;
+     color: white;
+     text-align: center;
+     font-weight: bold;
+     width: 400px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 20px;
+ }
+
+ .body_deg
+ {
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+ }
