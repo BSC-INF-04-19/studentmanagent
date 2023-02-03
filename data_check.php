@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 $host="localhost";
 
 
@@ -38,6 +40,8 @@ if(isset($_POST['apply']))
     if($result)
     {
         $_SESSION['message']="your application sent successful";
+
+        header("location:index.php");
     }
     else{
         echo "Apply failed";

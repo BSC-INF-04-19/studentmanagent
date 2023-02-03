@@ -1,3 +1,21 @@
+<?php
+error_reporting(0);
+session_start();
+session_destroy();
+
+if($_SESSION['message'])
+{
+    $message=$_SESSION['message'];
+
+    echo "<script type='text/javascript'>
+    
+    alert('message');
+
+    </script>";
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -117,7 +135,9 @@
 <center>
     <h1 class="adm">Admission Form</h1>
 </center>
+
 <div align="center" class="admission_form">
+
     <form action="data_check.php" method="POST">
         <div class="adm_int">
             <label class="label_text">Name</label>
@@ -134,13 +154,14 @@
             <input class="input_deg" type="text" name="phone">
          </div>
 
-         <div>
-            <label>Message</label>
+         <div class="adm_int">
+            <label class="label_text">Message</label>
             <textarea class="input_txt" name="message"></textarea>
          </div>
 
          <div class="adm_int">
-            <input class ="btn btn-primary" id="submit" type="submit" value="apply">
+            <input class ="btn btn-primary" id="submit" type=
+            "submit" value="apply" name="apply">
          </div>
 </form>
 
