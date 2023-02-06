@@ -168,7 +168,7 @@ if($_SESSION['message'])
 </div>
 
 <footer>
-    <h3 class="footer_text">All rights @copyright reserved by web tech knowledge</h3>
+    <h3 class="footer_text">@developed by Gilbert kamoto</h3>
 </footer>
 
 </body>
