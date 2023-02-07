@@ -143,17 +143,17 @@ if($_SESSION['message'])
             <label class="label_text">Name</label>
             <input class="input_deg" type="text" name="name">
          </div>
-
+<br>
          <div>
             <label class="label_text">Email</label>
             <input class="input_deg" type="text" name="email">
          </div>
-
+<br>
          <div>
             <label class="label_text">Phone </label>
             <input class="input_deg" type="text" name="phone">
          </div>
-
+<br>
          <div class="adm_int">
             <label class="label_text">Message</label>
             <textarea class="input_txt" name="message"></textarea>

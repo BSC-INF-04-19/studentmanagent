@@ -12,7 +12,7 @@ if(!isset($_SESSION['username']))
 $host="localhost";
 $user="root";
 $password="";
-$db="schoolproject";
+$db="schoolproject"; 
 
 $data=mysqli_connect($host,$user,$password,$db);
 
@@ -44,7 +44,7 @@ if(isset($_POST['add_student']))
 
     $result=mysqli_query($data,$sql);
 
-    if($result==$result)
+    if($result)
     {
         echo " <script type='text/javascript' >
         alert('Data upload success');
